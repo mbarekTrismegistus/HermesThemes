@@ -16,7 +16,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Page(){
   
-
+  React.useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
   React.useEffect(() => {
     $(document).bind('mousemove',function(e){ 
     
