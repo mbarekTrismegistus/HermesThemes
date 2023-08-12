@@ -8,8 +8,10 @@ import About from './components/about';
 import Products from './components/products';
 import NavBar from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
 
+if (typeof window !== "undefined") {
+  import 'bootstrap/dist/js/bootstrap.js';
+}
 
 
 
