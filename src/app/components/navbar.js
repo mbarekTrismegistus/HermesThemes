@@ -20,7 +20,7 @@ export default function NavBar(props){
 
     return(
         <header>
-            <nav className={`navbar navbar-expand navbar-${props.theme.color} bg-${props.theme.color} fixed-top`}>
+            <nav className={`navbar navbar-expand-lg navbar-${props.theme.color} bg-${props.theme.color} fixed-top`}>
                 <div className="container-fluid mt-0">
                 <a href="#" className={`navbar-brand text-${props.theme.text}`}>
                     <Image src={`/mercury${props.theme.color}.jpg`} alt="" width={50} height={50}/>
