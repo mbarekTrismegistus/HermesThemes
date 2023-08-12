@@ -26,7 +26,9 @@ export default function NavBar(props){
                     <Image src={`/mercury${props.theme.color}.jpg`} alt="" width={50} height={50}/>
                     HermesThemes
                 </a>
-                
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
                 <div className="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
                     <ul className={`nav navbar-nav ms-auto text-white`}>
                     <li className={`nav-item me-3 ${props.selected === "home" ? "active" : ""}`}>
