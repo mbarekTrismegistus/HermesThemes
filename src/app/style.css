@@ -53,7 +53,7 @@ body{
     
 }
 nav{
-    background-color: rgba(0, 0, 0, 0.945);
+    backdrop-filter: blur(25px);
     font-family: Louis George Cafe;
 }
 
