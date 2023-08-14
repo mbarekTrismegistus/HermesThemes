@@ -41,8 +41,8 @@ export default function About(props){
           <main>
             <div className="container text-center">
               
-              <div className="row mb-5">
-                <div className="col-8">
+              <div className="row">
+                <div className="col">
                   <h1 className="glow">About Me</h1>
                   <h3 className={`text-${props.theme.text} p-3`}>
                     Master of all arts and sciences. perfect in all crafts, Ruler of the Three Worlds, Scribe of the Gods, and Keeper of the Books of Life, Thoth Hermes Trismegistus
