@@ -23,7 +23,7 @@ export default function NavBar(props){
             <nav className={`navbar navbar-expand-lg navbar-${props.theme.color} fixed-top`}>
                 <div className="container-fluid mt-0">
                 <a href="#" className={`navbar-brand text-${props.theme.text}`}>
-                    <Image src={`/mercury${props.theme.color}.jpg`} alt="" width={50} height={50}/>
+                    <Image src={`/mercury${props.theme.color}.png`} alt="" width={50} height={50}/>
                     HermesThemes
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
