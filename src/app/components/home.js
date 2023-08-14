@@ -36,7 +36,7 @@ export default function Home(){
             <div className="container">
               <div className="row">
                 <div className="col">
-                  <h1 className="">Welcome to my <span>Page</span></h1>
+                  <h1 className="">Welcome to my <span className="glow">Page</span></h1>
                   <h3>I am A full stack web devloper not yet :( but soon</h3>
                   <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit </h3>
                   <button className="btn btn-light mt-5 mx-3 orderbtn">Order Now!</button>
