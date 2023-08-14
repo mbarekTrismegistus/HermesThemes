@@ -91,18 +91,12 @@ nav{
 .navbar-dark .navbar-brand{
     color: #ffffff;
 }
-main{
-    padding-top: 20%;
-    height: 100%;
-    min-height: 50vh;
-    
-    
-}
+
 
 main h1{
     color: var(--textColor);
 }
-main span{
+.glow{
     color: var(--primaryColor);
     text-shadow: 0px 0px 15px var(--primaryColor),
                  0px 0px 45px var(--primaryColor),
@@ -138,9 +132,10 @@ main p{
     
 
 }
-.about main{
+main{
     
-    padding-top: 20%;
+    display: flex;
+    align-items: center;
     height: 100%;
     height: 100vh;
     
