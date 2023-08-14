@@ -54,7 +54,7 @@ export default function About(props){
           </main>
           <div className="container pb-5">
             <div className="row py-5">
-              <h1 className="text-center mt-3">My Skills</h1>
+              <h1 className="text-center mt-3 glow">My Skills</h1>
             </div>
             <div className="skillCards">
               <div className="row justify-content-center">
