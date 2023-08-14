@@ -39,7 +39,7 @@ export default function About(props){
     return(
         <div className="about" id="About">
           <main>
-            <div className="container text-start">
+            <div className="container text-center">
               
               <div className="row mb-5">
                 <div className="col-8">
