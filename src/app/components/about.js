@@ -35,6 +35,19 @@ export default function About(props){
     })
     skillCards.forEach((el) => observer.observe(el))
   })
+
+
+  React.useEffect(() => {
+    anime({
+      targets: '.arrow',
+      bottom: 30,
+      duration: 500,
+      direction: 'alternate',
+      loop: true,
+      easing: 'easeInOutSine'
+    })
+
+  })
   
     return(
         <div className="about" id="About">
