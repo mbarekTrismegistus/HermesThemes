@@ -8,8 +8,8 @@ export default function NavBar(props){
     
     function handleColor(event){
         setColor(event.target.value)
-        document.documentElement.style.setProperty(`--primaryColor`, `${color}`);
-        document.documentElement.style.setProperty(`--transparentColor`, `${color}d8`);
+        document.documentElement.style.setProperty(`--primaryColor`, `${event.target.value}`);
+        document.documentElement.style.setProperty(`--transparentColor`, `${event.target.value}d8`);
         
         
     }
