@@ -49,7 +49,7 @@ export default function NavBar(props){
                     </ul>
 
                     <form className="d-flex ms-auto">
-                        <input className="form-color me-2 mt-1" onChange={handleColor} value="" id="color" type="color"/>
+                        <input className="form-color me-2 mt-1" onChange={handleColor} id="color" type="color"/>
                         
                         <div className="tbtn-con ms-auto me-3" onClick={props.changeTheme}>
                             <div className="toggle-btn my-1"></div>
