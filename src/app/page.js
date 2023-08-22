@@ -118,7 +118,7 @@ function changeTheme(){
         {component === "home" && <Home/>}
         {component === "about" && <About theme={theme}/>}
         {component === "product" && <Products theme={theme}/>}
-        
+        {component === "contact" && <Contact theme={theme}/>}
     </div>
 
   )
