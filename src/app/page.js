@@ -6,6 +6,7 @@ import "./style.css"
 import Home from './components/home';
 import About from './components/about';
 import Products from './components/products';
+import Contact from "./components/contact";
 import NavBar from './components/navbar'
 import 'bootstrap/dist/css/bootstrap.css';
 
