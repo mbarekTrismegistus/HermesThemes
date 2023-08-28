@@ -40,7 +40,7 @@ export default function About(props){
 
   React.useEffect(() => {
     anime({
-      targets: '.arrow',
+      targets: '#arrow',
       bottom: 30,
       duration: 500,
       direction: 'alternate',
@@ -64,7 +64,7 @@ export default function About(props){
                 </div>
               </div>
             </div>
-            <div className={`row ${styles.arrow}`}>
+            <div className={`row ${styles.arrow}`} id="arrow">
                 <svg width="30" height="55" viewBox="0 0 52 74" xmlns="http://www.w3.org/2000/svg">
                   <path d="M23.5251 72.4749C24.892 73.8417 27.108 73.8417 28.4749 72.4749L50.7487 50.201C52.1156 48.8342 52.1156 46.6181 50.7487 45.2513C49.3819 43.8844 47.1658 43.8844 45.799 45.2513L26 65.0503L6.20101 45.2513C4.83418 43.8844 2.6181 43.8844 1.25126 45.2513C-0.115572 46.6181 -0.115572 48.8342 1.25126 50.201L23.5251 72.4749ZM22.5 0L22.5 70H29.5L29.5 0L22.5 0Z"/>
                 </svg>
