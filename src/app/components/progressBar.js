@@ -1,5 +1,6 @@
 import anime from "animejs"
 import React from "react"
+import styles from './barStyle.module.css'
 
 export default function ProgressBar(props){
 
@@ -14,10 +15,11 @@ export default function ProgressBar(props){
 
     React.useEffect(() => {
     
-        const bars = document.querySelectorAll(".progressLine")
+        const bars = document.getElementsByName("progressLine")
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if(entry.isIntersecting){
+                    
                     if(entry.target.id === props.id){
                         anime({
                             targets: entry.target,
@@ -42,8 +44,8 @@ export default function ProgressBar(props){
     
 
     return(
-        <div className="BarLine">
-            <div className="progressLine" id={props.id} data-progress={props.progress} data-color={props.color} style={style}></div>
+        <div className={styles.BarLine}>
+            <div className={styles.progressLine} name="progressLine" id={props.id} style={style}></div>
         </div>
     )
 }
