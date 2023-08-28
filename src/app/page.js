@@ -2,7 +2,7 @@
 import anime from "animejs"
 import React from 'react';
 import $ from 'jquery';
-import "./style.css"
+import './global.css'
 import Home from './components/home';
 import About from './components/about';
 import Products from './components/products';
@@ -46,14 +46,14 @@ function changeTheme(){
   setTheme(oldTheme => {
     if(oldTheme.color === "white"){
       anime({
-        targets: '.toggle-btn',
+        targets: '#toggleBtn',
         left: '5px',
         backgroundColor: '#212529',
         easing: 'easeInOutQuad',
         duration: 400
       });
       anime({
-        targets: '.tbtn-con',
+        targets: '#tbtncon',
         backgroundColor: '#ffffff',
         easing: 'easeInOutQuad',
         border: '1px solid #212529',
@@ -67,14 +67,14 @@ function changeTheme(){
     }
     else{
       anime({
-        targets: '.toggle-btn',
+        targets: '#toggleBtn',
         left: '30px',
         backgroundColor: '#ffffff',
         easing: 'easeInOutQuad',
         duration: 400
       });
       anime({
-          targets: '.tbtn-con',
+          targets: '#tbtncon',
           backgroundColor: '#212529',
           easing: 'easeInOutQuad',
           border: '1px solid #ffffff',
