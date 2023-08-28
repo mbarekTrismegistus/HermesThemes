@@ -1,0 +1,58 @@
+.navbarBrand{
+    font-family: Lovelt;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.945);
+    font-family: Louis George Cafe;
+}
+
+
+
+.active{
+    background-color: var(--primaryColor);
+    color: white!important;
+    border-radius: 20px;
+    border: var(--primaryColor) solid 1px;
+    box-shadow: 0px 0px 15px var(--primaryColor);
+}
+
+.navitem{
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: var(--primaryColor);
+    
+}
+
+.navitem:hover{
+    color: #ffffff;
+    background-color: var(--primaryColor)!important;
+    border: var(--primaryColor) solid 1px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--primaryColor),
+                0px 0px 15px var(--primaryColor);
+    background-color: transparent;
+
+}
+
+.tbtncon{
+    
+    flex-direction: row;
+    border: 1px solid #212529;
+    width: 60px;
+    height: 31px;
+    border-radius: 50px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 25px #ffffff);
+    
+}
+.toggleBtn{
+    background-color: #212529;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 5px;
+    
+    
+}
+

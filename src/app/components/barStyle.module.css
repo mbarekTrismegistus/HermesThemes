@@ -1,0 +1,17 @@
+.BarLine{
+    display: flex;
+    background-color: rgb(194, 194, 194);
+    
+    height: 1px;
+    width: 100%;
+    align-items: center;
+    
+
+}
+.progressLine{
+    
+    width: 0%;
+    height: 5px;
+    
+
+}
