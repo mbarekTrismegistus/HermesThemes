@@ -2,6 +2,7 @@ import Image from "next/image"
 import $ from 'jquery';
 import React from "react";
 import anime from "animejs"
+import styles from './productStyle.module.css'
 
 export default function Products(props){
 
@@ -33,53 +34,53 @@ export default function Products(props){
 
     return(
       <div className="container">
-        <div className="product pt-5 container" id="products">
+        <div className={`${styles.product} pt-5 container`} id="products">
           <h1 className="text-center color">My Products</h1>
           <div className="container">
-            <div className="prodcts text-center text-white row my-5">
+            <div className="text-center text-white row my-5">
               
               <div className="col-lg-6 d-flex justify-content-center mt-5">
-                <div className="card mx-5">
+                <div className={`${styles.pcard} card mx-5`}>
                   <Image src="/p1.png" width={500} height={200} className="card-img-top" alt="..."/>
                   
-                  <div className="card-body">
+                  <div className={`card-body ${styles.cardbody}`}>
                     <h5 className="card-title">My first product</h5>
-                    <button className="btn btn-outline-dark d-block mx-auto my-3">Get the theme</button>
+                    <button className={`${styles.pbtn} btn btn-outline-dark d-block mx-auto my-3`}>Get the theme</button>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 d-flex justify-content-center  mt-5">
-                <div className="card mx-5">
+                <div className={`${styles.pcard} card mx-5`}>
                   <Image src="/p3.png" width={500} height={200}  className="card-img-top" alt="..."/>
                   
-                  <div className="card-body">
+                  <div className={`card-body ${styles.cardbody}`}>
                     <h5 className="card-title">My first product</h5>
-                    <button className="btn btn-outline-dark my-3">Get the theme</button>
+                    <button className={`${styles.pbtn} btn btn-outline-dark my-3`}>Get the theme</button>
                   </div>
                 </div>
               </div>
               
               
             </div>
-            <div className="prodcts text-center text-white row my-5">
+            <div className="text-center text-white row my-5">
               
               <div className="col-lg-6 mt-5 d-flex justify-content-center ">
-                <div className="card mx-5">
+                <div className={`${styles.pcard} card mx-5`}>
                   <Image src="/p3.webp" width={500} height={200} className="card-img-top" alt="..."/>
                   
-                  <div className="card-body">
+                  <div className={`card-body ${styles.cardbody}`}>
                     <h5 className="card-title">My first product</h5>
-                    <button className="btn btn-outline-dark d-block mx-auto my-3">Get the theme</button>
+                    <button className={`${styles.pbtn} btn btn-outline-dark d-block mx-auto my-3`}>Get the theme</button>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6 mt-5 d-flex justify-content-center ">
-                <div className="card mx-5">
+                <div className={`${styles.pcard} card mx-5`}>
                   <Image src="/p4.png" width={500} height={200} className="card-img-top" alt="..."/>
                   
-                  <div className="card-body">
+                  <div className={`card-body ${styles.cardbody}`}>
                     <h5 className="card-title">My first product</h5>
-                    <button className="btn btn-outline-dark d-block mx-auto my-3">Get the theme</button>
+                    <button className={`${styles.pbtn} btn btn-outline-dark my-3`}>Get the theme</button>
                   </div>
                 </div>
               </div>
