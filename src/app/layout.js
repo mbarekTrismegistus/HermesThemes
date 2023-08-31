@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Hermes Themes</title>
-        <link rel="icon" type="image/x-icon" href="/mercuryblack.png">
+        <link rel="icon" type="image/x-icon" href="/mercurywhite.ico"/>
       </head>
       <body>
 
