@@ -41,7 +41,7 @@ export default function Products(props){
               
               <div className="col-lg-6 d-flex justify-content-center mt-5">
                 <div className={`${styles.pcard} card mx-5`}>
-                  <Image src="/p1.png" width={500} height={200} className="card-img-top" alt="..."/>
+                  <Image src="/p1.png" width={500} height={200} className="card-img-top img img-fluid" alt="..."/>
                   
                   <div className={`card-body ${styles.cardbody}`}>
                     <h5 className="card-title">My first product</h5>
