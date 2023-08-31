@@ -55,7 +55,7 @@ export default function Products(props){
                   
                   <div className={`card-body ${styles.cardbody}`}>
                     <h5 className="card-title">My first product</h5>
-                    <button className={`${styles.pbtn} btn btn-outline-dark my-3`}>Get the theme</button>
+                    <button className={`${styles.pbtn} btn btn-outline-dark d-block mx-auto my-3`}>Get the theme</button>
                   </div>
                 </div>
               </div>
