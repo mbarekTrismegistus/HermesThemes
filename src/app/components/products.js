@@ -35,7 +35,7 @@ export default function Products(props){
     return(
       <div className="container">
         <div className={`${styles.product} pt-5 container`} id="products">
-          <h1 className="text-center color">My Products</h1>
+          <h1 className="text-center glow">My Products</h1>
           <div className="container">
             <div className="text-center text-white row my-5">
               
