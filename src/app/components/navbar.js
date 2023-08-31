@@ -32,19 +32,19 @@ export default function NavBar(props){
                 </button>
                 <div className="collapse navbar-collapse justify-content-center text-center" id="navbarSupportedContent">
                     <ul className={`nav navbar-nav ms-auto text-white`}>
-                    <li className={`${styles.navitem} me-3 mb-md-3 ${props.selected === "home" ? styles.active : ""}`}>
+                    <li className={`${styles.navitem} mx-2 my-1 ${props.selected === "home" ? styles.active : ""}`}>
                         <button className={`${styles.navlink} nav-link px-2 text-${props.theme.text}`} onClick={() => props.setComponent("home")}>Home</button>
                     </li>
-                    <li className={`${styles.navitem} me-3 mb-md-3  ${props.selected === "about" ? styles.active : ""}`}>
+                    <li className={`${styles.navitem} mx-2 my-1  ${props.selected === "about" ? styles.active : ""}`}>
                         <button className={`${styles.navlink} nav-link px-2 text-${props.theme.text}`} onClick={() => props.setComponent("about")}>About Me</button>
                     </li>
-                    <li className={`${styles.navitem} me-3 mb-md-3  ${props.selected === "product" ? styles.active : ""}`}>
+                    <li className={`${styles.navitem} mx-2 my-1  ${props.selected === "product" ? styles.active : ""}`}>
                         <button className={`${styles.navlink} nav-link px-2 text-${props.theme.text}`} onClick={() => props.setComponent("product")} >Products</button>
                     </li>
-                    <li className={`${styles.navitem} me-3 mb-md-3  ${props.selected === "contact" ? styles.active : ""}`}>
+                    <li className={`${styles.navitem} mx-2 my-1  ${props.selected === "contact" ? styles.active : ""}`}>
                         <button className={`${styles.navlink} nav-link px-2 text-${props.theme.text}`} onClick={() => props.setComponent("contact")} >Contact Me</button>
                     </li>
-                    <li className={`${styles.navitem} me-3 mb-md-3  ${props.selected === "others" ? styles.active : ""}`}>
+                    <li className={`${styles.navitem} mx-2 my-1  ${props.selected === "others" ? styles.active : ""}`}>
                         <button className={`${styles.navlink} nav-link px-2 text-${props.theme.text}`} onClick={() => props.setComponent("others")} >Others</button>
                     </li>
                     </ul>
