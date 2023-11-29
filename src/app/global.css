@@ -1,0 +1,111 @@
+:root {
+    --primaryColor: #D7788E;
+    --transparentColor:  #d7788ed8;
+    --themeColor: #000000;
+    --textColor: white;
+    
+    
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: 'Lovelt';
+    src: url('Nexa-Heavy.ttf');
+}
+
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('Louis George Cafe.ttf');
+}
+
+
+html {
+    height: 100%;  
+   
+ 
+}
+.about ,.home,.product,.contact{
+    opacity: 0;
+}
+h1, h2{
+    font-size: 55px;
+    font-family: Lovelt!important;
+   
+    color: var(--primaryColor);
+}
+body{
+   
+    background-color: var(--themeColor)!important;
+    background-image: url(/LainDressSlow.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    
+    
+    
+    
+}
+
+main h1{
+    color: var(--textColor);
+}
+main span{
+    color: var(--primaryColor);
+    text-shadow: 0px 0px 15px var(--primaryColor),
+                 0px 0px 45px var(--primaryColor),
+                 0px 0px 100px var(--primaryColor);
+}
+main h3{
+    color: grey;
+    font-family: Louis George Cafe;
+}
+main .btn{
+    border-radius: 30px;
+    border: var(--primaryColor) solid 1px;
+    color: white;
+    background-color: var(--primaryColor);
+}
+p{
+    font-family: Louis George Cafe;
+}
+main p{
+    color: white;
+    
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    height: 100vh;
+   
+    
+}
+
+
+.mouse{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: var(--primaryColor);
+    box-shadow: 0px 0px 25px var(--primaryColor),
+                0px 0px 55px var(--primaryColor);
+    border-radius: 50%;
+    z-index: 0!important;
+    
+}
+
+.glow{
+    color: var(--primaryColor);
+    text-shadow: 0px 0px 15px var(--primaryColor),
+                 0px 0px 45px var(--primaryColor),
+                 0px 0px 100px var(--primaryColor);
+}
